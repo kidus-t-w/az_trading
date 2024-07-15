@@ -1,12 +1,18 @@
-import './App.css'
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <>
-      <h1 className='text-3xl font-bold underline'>Hello world! </h1>
+      <Header />
+      <body className="">
+        <Outlet />
+      </body>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
