@@ -4,7 +4,8 @@ import { Facebook, Mail, SendHorizontal, Twitter, Youtube } from "lucide-react";
 export default function Header() {
   return (
     <>
-      <div className="flex justify-between items-align p-2 bg-gray-800 text-white px-16">
+      <div className="bg-gray-800">
+      <div className="flex justify-between items-align p-2 bg-gray-800 text-white container">
         <div className="flex gap-x-8">
           <div className="flex gap-x-4">
             <SendHorizontal />
@@ -27,7 +28,8 @@ export default function Header() {
           </Link>
         </div>
       </div>
-      <header className="flex items-center justify-between w-full h-16 p-8">
+      </div>
+      <header className="flex items-center justify-between p-2 h-16 container">
         <div className="">
           <Link to="/" className="flex gap-x-4 items-center">
             <img className="w-[50px] h-[50px]" src={Logo} alt="" />

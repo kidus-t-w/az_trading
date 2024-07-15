@@ -3,7 +3,7 @@ import { Mail, MapPinned, Phone } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="bg-gray-100 text-black">
-      <div className=" mx-auto py-8 px-2 sm:px-6 lg:px-24 h-[300px]">
+      <div className="  py-8 px-2 sm:px-6 lg:container h-[300px]">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Contact Us Section */}
           <div>
