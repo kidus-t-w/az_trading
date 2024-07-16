@@ -2,6 +2,7 @@ import HeroSection from "../components/HeroSection";
 import Banner from "../assets/img/Banner.jpg";
 import { Button } from "../components/ui/button";
 import Card from "../components/ui/card";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const value = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
@@ -32,7 +33,8 @@ export default function Home() {
           </h2>
           <div className="w-[1440px] mx-auto grid grid-cols-4  gap-8 p-4">
             {value.map(() => (
-              <Card />
+              <Link to="/product_detail" className="text-black"><Card /></Link>
+              
             ))}
           </div>
         </section>

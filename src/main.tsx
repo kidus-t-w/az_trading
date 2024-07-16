@@ -10,6 +10,7 @@ import ContactUs from "./pages/ContactUs.tsx";
 import Products from "./pages/Products.tsx";
 import Videos from "./pages/Videos.tsx";
 import { StrictMode } from "react";
+import ProductDetail from "./pages/ProductDetail.tsx";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
         path: "videos",
         element: <Videos />,
       },
+      {
+        path:"product_detail",
+        element: <ProductDetail />,
+      }
     ],
   },
 ]);

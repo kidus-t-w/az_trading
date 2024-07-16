@@ -1,4 +1,3 @@
-import { Button } from "./button";
 import Item from '../../assets/img/item.jpg'
 
 export default function card() {
