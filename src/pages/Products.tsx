@@ -1,32 +1,35 @@
 import PageTitle from "../components/PageTitle";
 import ProductCard from "../components/ui/ProductCard";
-import Item from "../assets/img/item.jpg";
 import { Link } from "react-router-dom";
+import Cereals from "../assets/img/products/Cereals.png";
+import Beans from "../assets/img/products/Beans & Pulses.png";
+import Oil from "../assets/img/products/Oil Seeds.png";
+import Spices from "../assets/img/products/Spices.png";
 
 const products = [
   {
-    image: Item,
-    title: "Gunpowder Tea",
+    image: Beans,
+    title: "Beans & Pulses",
     description:
-      "We're professional gunpowder tea suppliers in China for over 30 years, specialized in providing high quality tea with low price. We warmly welcome you to wholesale.",
+    "High-quality beans and pulses, rich in protein and nutrients, perfect for soups, salads, and stews. Explore our selection today!",
   },
   {
-    image: Item,
-    title: "Chunmee Tea",
+    image: Cereals,
+    title: "Cereals",
     description:
-      "We're professional chunmee tea suppliers in China for over 30 years, specialized in providing high quality tea with low price. We warmly welcome you to wholesale.",
+      "Premium cereals packed with essential nutrients, perfect for a healthy breakfast or versatile cooking. Discover our quality selection now!",
   },
   {
-    image: Item,
-    title: "Special Tea",
+    image: Oil,
+    title: "Oil Seeds",
     description:
-      "We're professional special tea suppliers in China for over 30 years, specialized in providing high quality tea with low price. We warmly welcome you to wholesale.",
+      "Nutrient-rich oil seeds, ideal for cooking and health benefits. High-quality, fresh selection for all your needs. Try them now!",
   },
   {
-    image: Item,
-    title: "Black Tea",
+    image: Spices,
+    title: "Spices",
     description:
-      "We're professional black tea suppliers in China for over 30 years, specialized in providing high quality tea with low price. We warmly welcome you to wholesale.",
+      "Authentic, aromatic spices to elevate your culinary creations. Fresh, high-quality spices for every dish. Explore our variety today!",
   },
 ];
 export default function Products() {
@@ -35,7 +38,7 @@ export default function Products() {
       <PageTitle title="Products" />
       <div className="bg-gray-100 py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
             <Link to="/product_detail">
               <ProductCard
                 key={products[0].title}

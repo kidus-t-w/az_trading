@@ -6,17 +6,17 @@ interface ProductCardProps {
 
 const ProductCard = ({ image, title, description }:ProductCardProps) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden flex max-w-lg">
-      <div className="w-1/3">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden flex w-full h-[280px]">
+      <div className="w-1/2">
         <img className="h-full w-full object-cover" src={image} alt={title} />
       </div>
-      <div className="w-2/3 p-4 flex flex-col justify-between">
+      <div className="w-2/3 p-12 flex flex-col justify-between">
         <div>
-          <h2 className="text-xl font-bold mb-2">{title}</h2>
+          <h2 className="text-2xl font-bold mb-2">{title}</h2>
           <p className="text-gray-700">{description}</p>
         </div>
-        <div className="mt-4">
-          <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700">
+        <div className="mt-4 flex justify-end">
+          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">
             Read More
           </button>
         </div>
