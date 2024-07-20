@@ -79,7 +79,7 @@ const Home: React.FC = () => {
                 Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
               </p>
               <Link to="/about_us">
-                <Button className="bg-white text-black hover:bg-red-500 hover:text-white mt-10">
+                <Button className="bg-blue-700  hover:bg-blue-500 text-white mt-10">
                   Learn More
                 </Button>
               </Link>
@@ -92,12 +92,12 @@ const Home: React.FC = () => {
           </h1>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <Link to="/about_us">
-              <button className="border border-gray-300 text-white px-6 py-2 rounded-md hover:bg-gray-200 hover:text-black">
+              <button className="border border-gray-300 text-white px-6 py-2 rounded-md hover:bg-gray-200 hover:text-black w-[200px]">
                 More About Us
               </button>
             </Link>
             <Link to="/contact_us">
-              <button className="bg-white text-blue-800 px-6 py-2 rounded-md hover:bg-blue-800 hover:border border-white hover:text-white">
+              <button className="bg-white text-blue-800 px-6 py-2 rounded-md hover:bg-blue-800 hover:border border-white hover:text-white w-[200px]">
                 Contact Us
               </button>
             </Link>
