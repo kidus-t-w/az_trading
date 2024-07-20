@@ -6,14 +6,14 @@ import Pin from "./components/ui/Pin";
 
 function App() {
   return (
-    <>
+    <div className="font-[Poppins]">
       <Header />
       <body className="">
         <Pin />
         <Outlet />
       </body>
       <Footer />
-    </>
+    </div>
   );
 }
 

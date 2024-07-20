@@ -1,19 +1,31 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/img/Logo.jpg";
-import { Facebook, Mail, SendHorizontal, Twitter, Youtube, Menu, X } from "lucide-react";
-
+import {
+  Facebook,
+  Mail,
+  Menu,
+  SendHorizontal,
+  Twitter,
+  X,
+  Youtube,
+} from "lucide-react";
+import { useState } from "react";
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const Links = [
+    { name: "HOME", link: "/" },
+    { name: "ABOUT US", link: "/about_us" },
+    { name: "PRODUCTS", link: "/products" },
+    { name: "Videos", link: "/videos" },
+    { name: "Contact Us", link: "/contact_us" },
+    { name: "FAQ", link: "/faq" },
+  ];
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  const [open, setOpen] = useState(false);
 
   return (
-    <>
-      <div className="bg-gray-800">
-        <div className="flex justify-between items-align p-2 bg-gray-800 text-white container mx-auto">
+    <header className="shadow-md w-full fixed top-0 left-0 z-[1000] bg-white">
+      <div className=" bg-gray-800 text-white  ">
+        <div className="sm:flex justify-between items-align p-2 container px-6 hidden">
           <div className="flex gap-x-8">
             <div className="flex gap-x-4">
               <SendHorizontal />
@@ -37,41 +49,45 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <header className="sticky top-0 z-50 bg-white shadow-md">
-        <div className="flex items-center justify-between p-2 h-16 container mx-auto">
-          <div>
-            <Link to="/" className="flex gap-x-4 items-center">
-              <img className="w-[50px] h-[50px]" src={Logo} alt="Logo" />
-              <h1 className="font-bold text-2xl">AZ Trading</h1>
-            </Link>
-          </div>
-          <div className="block lg:hidden">
-            <button onClick={toggleMenu} className="focus:outline-none">
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-            </button>
-          </div>
-          <ul className={`flex-col lg:flex lg:flex-row gap-x-4 font-bold ${isMenuOpen ? 'block' : 'hidden'} lg:block`}>
-            <li className="h-16 text-center content-center hover:bg-blue-950 w-full lg:w-[100px]">
-              <Link to="/" className="block h-full w-full content-center hover:text-white">Home</Link>
-            </li>
-            <li className="h-16 text-center content-center hover:bg-blue-950 w-full lg:w-[100px]">
-              <Link to="/about_us" className="block h-full w-full content-center hover:text-white">About Us</Link>
-            </li>
-            <li className="h-16 text-center content-center hover:bg-blue-950 w-full lg:w-[100px]">
-              <Link to="/products" className="block h-full w-full content-center hover:text-white">Products</Link>
-            </li>
-            <li className="h-16 text-center content-center hover:bg-blue-950 w-full lg:w-[100px]">
-              <Link to="/videos" className="block h-full w-full content-center hover:text-white">Videos</Link>
-            </li>
-            <li className="h-16 text-center content-center hover:bg-blue-950 w-full lg:w-[100px]">
-              <Link to="/contact_us" className="block h-full w-full content-center hover:text-white">Contact Us</Link>
-            </li>
-            <li className="h-16 text-center content-center hover:bg-blue-950 w-full lg:w-[100px]">
-              <Link to="/faq" className="block h-full w-full content-center hover:text-white">FAQ</Link>
-            </li>
-          </ul>
+      <div className="md:flex bg-white py-2 items-center justify-between container">
+        <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
+          <Link
+            to="/"
+            className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800"
+          >
+            <span className="text-3xl text-blue-600 mr-1 ">
+              <img src={Logo} alt="az-trading-logo" className="w-10" />
+            </span>
+            <h1>AZ Trading</h1>
+          </Link>
         </div>
-      </header>
-    </>
+        <div
+          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? (
+            <X />
+          ) : (
+            <Menu className="md:hidden text-3xl text-gray-800 cursor-pointer" />
+          )}
+        </div>
+        <ul
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-300 ease-in ${
+            open ? "top-16 " : "top-[-499px]"
+          }`}
+        >
+          {Links.map((link) => (
+            <li className="md:ml-8 text-xl md:my-0 my-7">
+              <Link
+                to={link.link}
+                className="text-gray-600 hover:text-gray-800 duration-500"
+              >
+                {link.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </header>
   );
 }

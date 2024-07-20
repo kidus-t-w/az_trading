@@ -8,7 +8,7 @@ interface PageTitleProps {
 export default function PageTitle({ title }: PageTitleProps) {
   return (
     <>
-      <div className="relative w-full h-[300px]">
+      <div className="mt-16 relative w-full h-[300px]">
         <div className="w-full h-full bg-banner bg-cover bg-center bg-no-repeat"></div>
         <div className="absolute inset-0 bg-black bg-opacity-50 w-full h-full flex flex-col gap-y-4 items-center justify-center text-center">
           <h1 className="text-8xl text-white">{title}</h1>
