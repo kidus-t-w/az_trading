@@ -3,16 +3,20 @@ import CategoryList from '../components/CategoryList';
 import HotProducts from '../components/HotProducts';
 import ProductList from '../components/ProductList';
 
-const ProductCatagory = () => {
+const ProductCategory = () => {
   return (
-    <div className="container mx-auto p-4 flex mt-28">
-      <div className="w-1/4 pr-4">
-        <CategoryList />
-        <HotProducts />
+    <div className="container mx-auto p-4 flex flex-col md:flex-row mt-28">
+      <div className="w-full md:w-1/4 md:pr-4 mb-4 md:mb-0">
+        <div className=" hidden md:block">
+          <CategoryList />
+          <HotProducts />
+        </div>
       </div>
-      <ProductList />
+      <div className="w-full">
+        <ProductList />
+      </div>
     </div>
   );
-}
+};
 
-export default ProductCatagory;
+export default ProductCategory;

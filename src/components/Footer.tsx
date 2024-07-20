@@ -65,26 +65,7 @@ export default function Footer() {
                   Products
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  News
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Knowledge
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Showroom
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Sitemap
-                </a>
-              </li>
+
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-800">
                   About Us
@@ -103,11 +84,6 @@ export default function Footer() {
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-800">
                   FAQ
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  VR
                 </a>
               </li>
             </ul>
