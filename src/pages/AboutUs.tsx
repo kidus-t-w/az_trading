@@ -1,7 +1,10 @@
 import PageTitle from "../components/PageTitle";
-import { Fade } from "react-reveal";
-import Banner from "../assets/img/Banner.jpg";
 import Map from "../assets/img/Map.png";
+import wearHouse from "/imgs/wearHouse/wear house.png";
+import wearHouse2 from "/imgs/wearHouse/wear house 2.png";
+import wearHouse3 from "/imgs/wearHouse/wear house 3.png";
+import wearHouse4 from "/imgs/wearHouse/wear house 4.png";
+import certificate from "/imgs/certificate.jpg";
 
 export default function AboutUs() {
   return (
@@ -9,141 +12,109 @@ export default function AboutUs() {
       <PageTitle title="About Us" />
       <div className="bg-white py-12">
         <div className="container mx-auto px-4 text-center">
-          <Fade bottom>
             <h2 className="text-xl font-bold mb-4">
-              One of the famous and main enterprises in Zhejiang province,
+              One of the famous and main enterprises in Ethiopia
               <br />
-              who focus on the tea product import and export business.
+              who focus on the beans product import and export business.
             </h2>
             <p className="text-gray-700 mb-2">
-              The business aim of the Chunli is to supply the high-quality tea
-              product with reasonable price to our customer.
-              <br />
-              To achieve this business aim, we have our own tea processing factory
-              and stable supply chain.
-              <br />
-              The exporting quantity of our product reaches 35,000 tons per year.
-              As well, it is rising steadily.
+            AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
             </p>
-          </Fade>
         </div>
       </div>
-      <Fade bottom>
         <h2 className="text-4xl font-bold text-center">Our History</h2>
-      </Fade>
       <div className="mt-16">
-        <Fade left>
           <div className="container flex flex-col md:flex-row items-center md:items-start bg-white p-4">
-            <img src={Banner} alt="Company" className="w-full md:w-[600px] h-auto" />
+            <img src={wearHouse2} alt="Company" className="w-full md:w-[600px] h-auto rounded-2xl m-2 shadow-lg" />
             <div className="md:ml-8 mt-4 md:mt-0 md:w-1/2">
               <h2 className="text-xl font-bold mb-4">
-                Zhejiang Chunli Tea Industry Co., Ltd
-              </h2>
+                AZ Trading PLC              </h2>
               <p className="text-gray-700 mb-2">
-                Was set up in 1993 in Zhejiang province, China, with more than 300
-                employees and with a registered fund of 50 million yuan. Chunli
-                also owns over 8 thousand square meters office building, 65
-                thousand square meters factory building and 23 million square
-                meters tea garden. We are one of the famous and main enterprises
-                in Zhejiang province, who focus on the tea product import and
-                export business. Is a leading tea export company with an
-                impressive volume of 35,000 tons annually. Our client base extends
-                to most African and Central Asian countries, including Algeria,
-                Mauritania, Senegal, as well as Russia, Europe, and the United
-                States. Our company is renowned for high-quality tea production
-                and has won the appreciation and loyalty of clients due to our
-                strong production capacity and strict quality control measures.
+              AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
               </p>
             </div>
           </div>
-        </Fade>
       </div>
       <div className="mt-16">
-        <Fade right>
           <div className="container flex flex-col md:flex-row-reverse items-center md:items-start bg-white p-4">
-            <img src={Banner} alt="Company" className="w-full md:w-[600px] h-auto" />
+            <img src={wearHouse} alt="Company" className="w-full md:w-[600px] h-auto rounded-2xl m-2 shadow-lg" />
             <div className="md:mr-8 mt-4 md:mt-0 md:w-1/2">
               <h2 className="text-xl font-bold mb-4">
-                Zhejiang Chunli Tea Industry Co., Ltd
-              </h2>
+                AZ Trading PLC              </h2>
               <p className="text-gray-700 mb-2">
-                Was set up in 1993 in Zhejiang province, China, with more than 300
-                employees and with a registered fund of 50 million yuan. Chunli
-                also owns over 8 thousand square meters office building, 65
-                thousand square meters factory building and 23 million square
-                meters tea garden. We are one of the famous and main enterprises
-                in Zhejiang province, who focus on the tea product import and
-                export business. Is a leading tea export company with an
-                impressive volume of 35,000 tons annually. Our client base extends
-                to most African and Central Asian countries, including Algeria,
-                Mauritania, Senegal, as well as Russia, Europe, and the United
-                States. Our company is renowned for high-quality tea production
-                and has won the appreciation and loyalty of clients due to our
-                strong production capacity and strict quality control measures.
+              AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
               </p>
             </div>
           </div>
-        </Fade>
       </div>
       <div className="mt-16">
-        <Fade left>
           <div className="container flex flex-col md:flex-row items-center md:items-start bg-white p-4">
-            <img src={Banner} alt="Company" className="w-full md:w-[600px] h-auto" />
+            <img src={wearHouse3} alt="Company" className="w-full md:w-[600px] h-auto rounded-2xl m-2 shadow-lg" />
             <div className="md:ml-8 mt-4 md:mt-0 md:w-1/2">
               <h2 className="text-xl font-bold mb-4">
-                Zhejiang Chunli Tea Industry Co., Ltd
-              </h2>
+                AZ Trading PLC              </h2>
               <p className="text-gray-700 mb-2">
-                Was set up in 1993 in Zhejiang province, China, with more than 300
-                employees and with a registered fund of 50 million yuan. Chunli
-                also owns over 8 thousand square meters office building, 65
-                thousand square meters factory building and 23 million square
-                meters tea garden. We are one of the famous and main enterprises
-                in Zhejiang province, who focus on the tea product import and
-                export business. Is a leading tea export company with an
-                impressive volume of 35,000 tons annually. Our client base extends
-                to most African and Central Asian countries, including Algeria,
-                Mauritania, Senegal, as well as Russia, Europe, and the United
-                States. Our company is renowned for high-quality tea production
-                and has won the appreciation and loyalty of clients due to our
-                strong production capacity and strict quality control measures.
+              AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
               </p>
             </div>
           </div>
-        </Fade>
       </div>
       <div className="mt-16">
-        <Fade right>
           <div className="container flex flex-col md:flex-row-reverse items-center md:items-start bg-white p-4">
-            <img src={Banner} alt="Company" className="w-full md:w-[600px] h-auto" />
+            <img src={wearHouse4} alt="Company" className="w-full md:w-[600px] h-auto rounded-2xl m-2 shadow-lg" />
             <div className="md:mr-8 mt-4 md:mt-0 md:w-1/2">
               <h2 className="text-xl font-bold mb-4">
-                Zhejiang Chunli Tea Industry Co., Ltd
-              </h2>
+                AZ Trading PLC              </h2>
               <p className="text-gray-700 mb-2">
-                Was set up in 1993 in Zhejiang province, China, with more than 300
-                employees and with a registered fund of 50 million yuan. Chunli
-                also owns over 8 thousand square meters office building, 65
-                thousand square meters factory building and 23 million square
-                meters tea garden. We are one of the famous and main enterprises
-                in Zhejiang province, who focus on the tea product import and
-                export business. Is a leading tea export company with an
-                impressive volume of 35,000 tons annually. Our client base extends
-                to most African and Central Asian countries, including Algeria,
-                Mauritania, Senegal, as well as Russia, Europe, and the United
-                States. Our company is renowned for high-quality tea production
-                and has won the appreciation and loyalty of clients due to our
-                strong production capacity and strict quality control measures.
+              AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
               </p>
             </div>
           </div>
-        </Fade>
       </div>
 
       <div className="bg-white py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Fade bottom>
+          <div className="grid grid-cols-1 md:grid-row-3 gap-8">
               <div>
                 <h3 className="text-lg font-bold mb-2">
                   Producing high-quality tea with the most advanced technology and
@@ -151,108 +122,107 @@ export default function AboutUs() {
                 </h3>
                 <div className="border-b-2 border-green-500 w-24 mb-4"></div>
                 <p className="text-gray-700">
-                  The tea production workshop is an important part of the
-                  company's production process, and is responsible for the
-                  production of quality tea under strict supervision and control.
-                  The tea production workshop is equipped with a state-of-the-art
-                  production line that includes several advanced tea manufacturing
-                  machines. The first step in the tea production process is the
-                  withering of the fresh tea leaves. The fresh tea leaves are
-                  placed on the withering machine to reduce their moisture
-                  content, which makes them pliable enough for further processing.
-                  The withered leaves are then transferred to the rolling machine,
-                  where they are rolled and twisted to break down the cell wall
-                  and release the essential oils and flavors. After rolling, the
-                  tea is then placed in a curing room to dry.
+                AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
                 </p>
               </div>
-            </Fade>
-            <Fade bottom>
               <div>
                 <h3 className="text-lg font-bold mb-2">
                   Adopted a fully automated production line
                 </h3>
                 <div className="border-b-2 border-green-500 w-24 mb-4"></div>
                 <p className="text-gray-700">
-                  Ensuring the production process is safe, efficient, and
-                  hygienic. The use of automated machines reduces labor costs and
-                  eliminates human errors, thus improving overall efficiency. The
-                  company has also installed advanced temperature and humidity
-                  control systems, which allows for the adjustment of the
-                  production environment to ensure the highest quality tea is
-                  produced.
+                AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
                 </p>
               </div>
-            </Fade>
-            <Fade bottom>
               <div>
                 <h3 className="text-lg font-bold mb-2">
                   Takes health and safety seriously
                 </h3>
                 <div className="border-b-2 border-green-500 w-24 mb-4"></div>
                 <p className="text-gray-700">
-                  The tea production workshop of Zhejiang Chunli Tea Industry Co.,
-                  Ltd. is well-lit, clean, and hygienic. All production equipment
-                  is maintained on a regular basis to ensure proper functionality
-                  and cleanliness. The production floor is cleaned and disinfected
-                  several times a day to maintain a hygiene and sanitary
-                  environment. This ensures that the tea produced is safe for
-                  human consumption. The company has implemented strict safety
-                  measures in the production workshop. All employees are required
-                  to wear protective clothing, including gloves, masks, and
-                  hairnets. The company also provides training for all employees
-                  on proper handling and use of production equipment to minimize
-                  the risk of accidents.
+                AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
                 </p>
               </div>
-            </Fade>
           </div>
         </div>
       </div>
 
       <div className="bg-white py-12">
         <div className="container mx-auto px-4 text-center">
-          <Fade bottom>
             <h2 className="text-2xl font-bold mb-4">Our Certificate</h2>
             <p className="mb-12">
-              As a testament to our commitment, we have received numerous
-              certifications such as ISO 22000 and FDA, ensuring that our tea
-              meets international food safety standards.
+            AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
               <img
-                src={Banner}
+                src={certificate}
                 alt="Certificate 1"
                 className="rounded-2xl m-2 shadow-lg"
               />
               <img
-                src={Banner}
+                src={certificate}
                 alt="Certificate 2"
                 className="rounded-2xl m-2 shadow-lg"
               />
               <img
-                src={Banner}
+                src={certificate}
                 alt="Certificate 3"
                 className="rounded-2xl m-2 shadow-lg"
               />
               <img
-                src={Banner}
+                src={certificate}
                 alt="Certificate 4"
                 className="rounded-2xl m-2 shadow-lg"
               />
             </div>
-          </Fade>
         </div>
       </div>
 
       <div className="bg-white py-12">
         <div className="container mx-auto px-4 text-center">
-          <Fade bottom>
             <h2 className="text-2xl font-bold mb-4">Sales Market</h2>
             <p className="mb-12">
-              As a testament to our commitment, we have received numerous
-              certifications such as ISO 22000 and FDA, ensuring that our tea
-              meets international food safety standards.
+            AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
             </p>
             <div className="">
               <img
@@ -261,61 +231,67 @@ export default function AboutUs() {
                 className="rounded-2xl m-2 shadow-lg"
               />
             </div>
-          </Fade>
         </div>
       </div>
 
       <div className="bg-white py-12">
         <div className="container mx-auto px-4">
-          <Fade bottom>
             <h2 className="text-xl font-bold mb-4">Professional Team</h2>
             <p className="text-gray-700 mb-2">
-              A team of exceptional and professional individuals is an important
-              component of a successful business. When it comes to providing the
-              best services to our clients, we believe that we have assembled a
-              team that is second to none. Our team is made up of individuals who
-              are passionate about their profession, and who are committed to
-              delivering excellence in every task they undertake. Each team member
-              is carefully selected based on their skills, experience and
-              dedication to excellence. We invest in continuous learning and
-              development programmes to ensure that our team is up-to-date with
-              the latest trends, techniques and best practices in their respective
-              fields.
+            AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
             </p>
             <p className="text-gray-700 mb-2">
-              Our team is dedicated to providing exceptional customer service to
-              our clients. We strive to always exceed their expectations and go
-              above and beyond to ensure their satisfaction. As a result, we have
-              built long-term relationships with our clients over the years, and
-              we are their trusted partner when it comes to meeting their needs
-              and achieving their goals.
+            AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
             </p>
             <p className="text-gray-700 mb-2">
-              We are proud of the diversity of our team, which brings a variety of
-              perspectives, cultures, experiences and skills to the table. This
-              diversity helps us to better understand our clients' needs and
-              provide tailored solutions that meet their unique requirements. Our
-              team members have different backgrounds, but all share the same
-              passion for excellence and delivering value to our clients.
+            AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
             </p>
             <p className="text-gray-700 mb-2">
-              At the heart of our team is a strong sense of collaboration, trust
-              and respect. Each team member plays an important role, and we work
-              together to achieve our objectives. We encourage open communication,
-              constructive feedback and creativity, which enables us to
-              continuously improve our services and processes. Our team is also
-              committed to maintaining a positive work culture that fosters a
-              supportive and enjoyable workplace.
+            AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
             </p>
             <p className="text-gray-700">
-              We believe that our team is the best in the business when it comes
-              to providing exceptional services to our clients. We are passionate,
-              skilled, and dedicated to delivering excellence in everything we do.
-              Our team is a reflection of our commitment to achieving our clients'
-              goals and building long-term relationships that are built on trust,
-              respect and collaboration.
+            AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
+                Cereal, & Spices Az Trading P.L.C is a leading supplier of
+                premium quality product range of beans & Pulses, Oil Seed,
+                Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise
+                to all its clients. Beans & Pulses range consist of quality
+                beans with rich protein content, like Red Kidney Bean, Black
+                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
             </p>
-          </Fade>
         </div>
       </div>
     </>

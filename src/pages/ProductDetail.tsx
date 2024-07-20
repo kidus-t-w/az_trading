@@ -50,7 +50,7 @@ export default function ProductDetail() {
           </p>
           <p>Taste: quite mellow, without sour or bitter</p>
           <p>Payment Term: D/P, D/A, L/C, T/T, can be further discussed</p>
-          <p>Place of Origin: Zhejiang, China</p>
+          
 
           <div className="grid grid-cols-2 gap-8 m-4">
             <Button className="flex gap-4">
@@ -70,92 +70,57 @@ export default function ProductDetail() {
       <div className="container mb-8">
         <h2 className="text-2xl font-bold">Best Quality Red Kidney Beans</h2>
         <p>
-          Introduction to Our Company's Latest Gunpowder Tea Production Line and
-          3505AAA Gunpowder Tea Our company is proud to introduce our latest
-          gunpowder tea production line, which is now up and running. This new
-          production line incorporates the latest technology and is capable of
-          producing some of the highest-quality pearl tea available on the
-          market today. In this article, we will discuss the features of this
-          new production line and showcase our flagship product - the 3505AAA
-          tea. Features of Our New Gunpowder Tea Production Line Our new
-          gunpowder tea production line is a state-of-the-art facility that
-          features the latest advancements in technology and production
-          techniques. Here are some of the key features of this new production
-          line: 1. High efficiency - The new production line is designed to be
-          highly efficient, allowing us to produce large quantities of tea in a
-          relatively short amount of time. This ensures that we can meet the
-          growing demand for our products both domestically and internationally.
-          2. Precise temperature control - The production line incorporates
-          precise temperature control systems, which is essential for producing
-          high-quality tea. This ensures that the tea is brewed at the optimal
-          temperature, allowing us to maintain consistency in flavor and quality
-          across batches. 3. Automated processes - The new production line is
-          largely automated, which helps us achieve consistency in our products
-          while reducing the risk of errors or defects. 4. Quality control - We
-          have implemented strict quality control measures throughout the
-          production process. This includes regular testing and sampling of our
-          products to ensure that they meet our high standards of quality and
-          purity. 3505AAA gunpowder Tea - Our Flagship Product One of the
-          products that we are particularly proud of is our 3505AAA green tea.
-          This tea is made using high-quality leaves from the Camellia sinensis
-          plant, which is grown in the high-altitude regions of China. Here are
-          some of the key features of our 3505AAA tea: 1. Rich flavor - Our
-          3505AAA tea is renowned for its rich, full-bodied flavor. It has a
-          unique taste that is both smooth and complex, with notes of honey and
-          caramel. 2. Exquisite aroma - The tea has a delicate aroma that is
-          both refreshing and soothing. It is a perfect blend of floral, herbal,
-          and fruity notes. 3. Premium quality - Our 3505AAA tea is made using
-          only the highest-quality tea leaves. Each tea leaf is carefully
-          selected and processed to ensure that it meets our strict quality
-          standards. 4. Health benefits - Pearl tea is rich in antioxidants and
-          other beneficial compounds that help to support overall health and
-          well-being. Regular consumption of pearl tea can help to boost
-          metabolism, improve digestion, and reduce the risk of chronic
-          diseases. Conclusion Our latest pearl tea production line and the
-          3505AAA tea are a testament to our commitment to producing
-          high-quality, premium teas that are enjoyed by tea lovers around the
-          world. We are proud to offer a product that is not only delicious but
-          also beneficial for our health. We invite you to try our pearl tea and
-          experience the unique taste and aroma for yourself!
+          AZ Trading – Leading supplier of Beans & Pulses, Oil Seed, Cereal, &
+          Spices Az Trading P.L.C is a leading supplier of premium quality
+          product range of beans & Pulses, Oil Seed, Cereal, & Spices. The
+          company believes in providing the most fresh, natural and best quality
+          products, without any compromise to all its clients. Beans & Pulses
+          range consist of quality beans with rich protein content, like Red
+          Kidney Bean, Black Kidney Bean, Red Speckled Kidney Bean, Light
+          Speckled Kidney Bean, Pinto Bean, Green Mung Beans & Fava /Broad
+          Beans.
         </p>
       </div>
       <div className="w-full mx-auto mt-10 mb-2 p-4 bg-gray-100 shadow-lg rounded">
-      <h2 className="text-2xl font-semibold mb-4 container">Send Inquiry</h2>
-      <form className="container">
-        <div className="mb-4">
-          <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-            E-mail:*
-          </label>
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="email"
-            type="email"
-            placeholder="E-mail"
-            required
-          />
-        </div>
-        <div className="mb-4" >
-          {/* <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+        <h2 className="text-2xl font-semibold mb-4 container">Send Inquiry</h2>
+        <form className="container">
+          <div className="mb-4">
+            <label
+              className="block text-gray-700 text-sm font-bold mb-2"
+              htmlFor="email"
+            >
+              E-mail:*
+            </label>
+            <input
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="email"
+              type="email"
+              placeholder="E-mail"
+              required
+            />
+          </div>
+          <div className="mb-4">
+            {/* <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
             Please include details like size, weight, destination port and etc., so that we can quote the best price.*
           </label> */}
-          <textarea
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            id="message"
-            placeholder="Your message"
-            rows={4}
-            required
-          />
-        </div>
-        <div className="flex items-center justify-center">
-          <button
-            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-            type="submit"
-          >
-            Leave a message
-          </button>
-        </div>
-      </form>
-    </div>
+            <textarea
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              id="message"
+              placeholder="Your message"
+              rows={4}
+              required
+            />
+          </div>
+          <div className="flex items-center justify-center">
+            <button
+              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              type="submit"
+            >
+              Leave a message
+            </button>
+          </div>
+        </form>
+      </div>
     </>
   );
 }

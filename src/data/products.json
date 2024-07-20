@@ -1,0 +1,127 @@
+
+[
+  {
+    "beans": {
+      "black kidney": {
+        "name": "Black Kidney Beans",
+        "price": 2.99,
+        "img": "assets/img/products/beans/black-kidney-beans.png",
+        "description": "Black kidney beans are a variety of the common bean (Phaseolus vulgaris). They are named for their visual resemblance in shape and color to a kidney. They are a part of the regular diet in India, Nepal, Pakistan, and Sri Lanka. The black kidney bean is known as the 'black bean' in various South American countries."
+      },
+      "cream beans": {
+        "name": "Cream Beans",
+        "price": 3.99,
+        "img": "cream-beans.jpg",
+        "description": "Cream beans are a type of bean that is white in color. They are a good source of protein and are low in fat. They are also a good source of fiber, which helps to keep you feeling full and satisfied. Cream beans are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "green mung": {
+        "name": "Green Mung Beans",
+        "price": 4.99,
+        "img": "green-mung-beans.jpg",
+        "description": "Green mung beans are a type of legume that is native to India. They are a good source of protein and are low in fat. Green mung beans are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "red kidney": {
+        "name": "Red Kidney Beans",
+        "price": 5.99,
+        "img": "red-kidney-beans.jpg",
+        "description": "Red kidney beans are a type of legume that is native to India. They are a good source of protein and are low in fat. Red kidney beans are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "fave beans": {
+        "name": "Fave Beans",
+        "price": 6.99,
+        "img": "fave-beans.jpg",
+        "description": "Fave beans are a type of bean that is native to the Mediterranean region. They are a good source of protein and are low in fat. Fave beans are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "light speckled kidney": {
+        "name": "Light Speckled Kidney Beans",
+        "price": 7.99,
+        "img": "light-speckled-kidney-beans.jpg",
+        "description": "Light speckled kidney beans are a type of bean that is native to India. They are a good source of protein and are low in fat. Light speckled kidney beans are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "pinto beans": {
+        "name": "Pinto Beans",
+        "price": 8.99,
+        "img": "pinto-beans.jpg",
+        "description": "Pinto beans are a type of bean that is native to the Americas. They are a good source of protein and are low in fat. Pinto beans are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "red speckled kidney": {
+        "name": "Red Speckled Kidney Beans",
+        "price": 9.99,
+        "img": "red-speckled-kidney-beans.jpg",
+        "description": "Red speckled kidney beans are a type of bean that is native to India. They are a good source of protein and are low in fat. Red speckled kidney beans are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      }
+    },
+    "cereal": {
+      "bitter lupin": {
+        "name": "Bitter Lupin",
+        "price": 2.99,
+        "img": "bitter-lupin.jpg",
+        "description": "Bitter lupin is a type of legume that is native to the Mediterranean region. It is a good source of protein and is low in fat. Bitter lupin is also a good source of fiber, which helps to keep you feeling full and satisfied. It is a great addition to any meal and can be used in a variety of dishes."
+      },
+      "desi chick peas": {
+        "name": "Desi Chick Peas",
+        "price": 3.99,
+        "img": "desi-chick-peas.jpg",
+        "description": "Desi chick peas are a type of legume that is native to India. They are a good source of protein and are low in fat. Desi chick peas are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "kabuli chick peas": {
+        "name": "Kabuli Chick Peas",
+        "price": 4.99,
+        "img": "kabuli-chick-peas.jpg",
+        "description": "Kabuli chick peas are a type of legume that is native to India. They are a good source of protein and are low in fat. Kabuli chick peas are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      }
+    },
+    "oilSeeds": {
+      "niger seeds": {
+        "name": "Niger Seeds",
+        "price": 2.99,
+        "img": "niger-seeds.jpg",
+        "description": "Niger seeds are a type of seed that is native to India. They are a good source of protein and are low in fat. Niger seeds are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "red skin peanut": {
+        "name": "Red Skin Peanut",
+        "price": 3.99,
+        "img": "red-skin-peanut.jpg",
+        "description": "Red skin peanut is a type of seed that is native to India. They are a good source of protein and are low in fat. Red skin peanut is also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "reddish sesame seeds": {
+        "name": "Reddish Sesame Seeds",
+        "price": 4.99,
+        "img": "reddish-sesame-seeds.jpg",
+        "description": "Reddish sesame seeds are a type of seed that is native to India. They are a good source of protein and are low in fat. Reddish sesame seeds are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "white sesame seeds": {
+        "name": "White Sesame Seeds",
+        "price": 5.99,
+        "img": "white-sesame-seeds.jpg",
+        "description": "White sesame seeds are a type of seed that is native to India. They are a good source of protein and are low in fat. White sesame seeds are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      }
+    },
+    "spices": {
+      "black cumin seeds": {
+        "name": "Black Cumin Seeds",
+        "price": 2.99,
+        "img": "black-cumin-seeds.jpg",
+        "description": "Black cumin seeds are a type of seed that is native to India. They are a good source of protein and are low in fat. Black cumin seeds are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+      },
+      "cardamom": {
+        "name": "Cardamom",
+        "price": 3.99,
+        "img": "cardamom.jpg",
+        "description": "Cardamom is a type of spice that is native to India. It is a good source of protein and is low in fat. Cardamom is also a good source of fiber, which helps to keep you feeling full and satisfied. It is a great addition to any meal and can be used in a variety of dishes."
+      },
+      "dry ginger": {
+        "name": "Dry Ginger",
+        "price": 4.99,
+        "img": "dry-ginger.jpg",
+        "description": "Dry ginger is a type of spice that is native to India. It is a good source of protein and is low in fat. Dry ginger is also a good source of fiber, which helps to keep you feeling full and satisfied. It is a great addition to any meal and can be used in a variety of dishes."
+      },
+      "tumeric finger": {
+        "name": "Tumeric Finger",
+        "price": 5.99,
+        "img": "tumeric-finger.jpg",
+        "description": "Tumeric finger is a type of spice that is native to India. It is a good source of protein and is low in fat. Tumeric finger is also a good source of fiber, which helps to keep you feeling full and satisfied. It is a great addition to any meal and can be used in a variety of dishes."
+      }
+    }
+  }
+]

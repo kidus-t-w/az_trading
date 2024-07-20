@@ -6,9 +6,9 @@ interface ProductCardProps {
 
 const ProductCard = ({ image, title, description }:ProductCardProps) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden flex w-full h-[280px]">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden flex w-full h-[280px] hover:shadow-2xl">
       <div className="w-1/2">
-        <img className="h-full w-full object-cover" src={image} alt={title} />
+        <img className="h-full w-full object-cover hover:scale-110" src={image} alt={title}/>
       </div>
       <div className="w-2/3 p-12 flex flex-col justify-between">
         <div>
