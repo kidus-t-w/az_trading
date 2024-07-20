@@ -77,7 +77,7 @@ export default function Header() {
           }`}
         >
           {Links.map((link) => (
-            <li className="md:ml-8 text-xl md:my-0 my-7">
+            <li className="md:ml-8 text-l font-semibold md:my-0 my-7">
               <Link
                 to={link.link}
                 className="text-gray-600 hover:text-gray-800 duration-500"

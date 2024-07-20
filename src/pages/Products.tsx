@@ -39,7 +39,7 @@ export default function Products() {
       <div className="bg-gray-100 py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-            <Link to="/product_detail">
+            <Link to="/product_catagory">
               <ProductCard
                 key={products[0].title}
                 image={products[0].image}
@@ -47,7 +47,7 @@ export default function Products() {
                 description={products[0].description}
               />
             </Link>
-            <Link to="/product_detail">
+            <Link to="/product_catagory">
               <ProductCard
                 key={products[1].title}
                 image={products[1].image}
@@ -55,7 +55,7 @@ export default function Products() {
                 description={products[1].description}
               />
             </Link>
-            <Link to="/product_detail">
+            <Link to="/product_catagory">
               <ProductCard
                 key={products[2].title}
                 image={products[2].image}
@@ -63,7 +63,7 @@ export default function Products() {
                 description={products[2].description}
               />
             </Link>
-            <Link to="/product_detail">
+            <Link to="/product_catagory">
               <ProductCard
                 key={products[3].title}
                 image={products[3].image}

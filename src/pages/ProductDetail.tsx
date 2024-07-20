@@ -6,7 +6,7 @@ import { Button } from "../components/ui/button";
 export default function ProductDetail() {
   return (
     <>
-      <div className="bg-gray-100 py-4 border-b-2 border-green-600">
+      <div className="bg-gray-100 py-4 border-b-2 border-green-600 mt-8">
         <div className="container mx-auto px-4 flex items-center">
           <Link
             to="/"

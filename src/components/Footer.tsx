@@ -1,27 +1,25 @@
-import { Mail, MapPinned, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="bg-gray-100 text-black">
-      <div className="  py-8 px-2 sm:px-6 lg:container h-[300px]">
+      <div className="py-8 px-2 sm:px-6 lg:container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Contact Us Section */}
           <div>
             <h3 className="text-lg font-semibold">Contact Us</h3>
             <ul className="mt-4 space-y-2">
               <li className="flex items-center">
-              <Phone />
+                <Phone />
                 <span className="ml-2">+251-915579335</span>
               </li>
               <li className="flex items-center">
-              <Mail />
+                <Mail />
                 <span className="ml-2">az.trading@gmail.com</span>
               </li>
               <li className="flex items-center">
-              <MapPinned />
-                <span className="ml-2">
-                  Burau, Ethiopia.
-                </span>
+                <MapPin />
+                <span className="ml-2">Burau, Oromia, Ethiopia.</span>
               </li>
             </ul>
           </div>
@@ -37,17 +35,17 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-800">
-                Mung bean
+                  Mung bean
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-800">
-                Chickpea
+                  Chickpea
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-600 hover:text-gray-800">
-                Pumpkin Seeds
+                  Pumpkin Seeds
                 </a>
               </li>
             </ul>
