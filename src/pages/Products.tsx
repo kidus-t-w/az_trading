@@ -16,25 +16,25 @@ const products = [
     image: Beans,
     title: "Beans & Pulses",
     description:
-      "High-quality beans and pulses, rich in protein and nutrients, perfect for soups, salads, and stews. Explore our selection today!",
+      "High-quality beans and pulses, rich in protein and nutrients, perfect for soups, salads, and stews.",
   },
   {
     image: Cereals,
     title: "Cereals",
     description:
-      "Premium cereals packed with essential nutrients, perfect for a healthy breakfast or versatile cooking. Discover our quality selection now!",
+      "Premium cereals packed with essential nutrients, perfect for a healthy breakfast or versatile cooking.",
   },
   {
     image: Oil,
     title: "Oil Seeds",
     description:
-      "Nutrient-rich oil seeds, ideal for cooking and health benefits. High-quality, fresh selection for all your needs. Try them now!",
+      "Nutrient-rich oil seeds, ideal for cooking and health benefits. High-quality, fresh selection for all your needs.",
   },
   {
     image: Spices,
     title: "Spices",
     description:
-      "Authentic, aromatic spices to elevate your culinary creations. Fresh, high-quality spices for every dish. Explore our variety today!",
+      "Authentic, aromatic spices to elevate your culinary creations. Fresh, high-quality spices for every dish.",
   },
 ];
 export default function Products() {
