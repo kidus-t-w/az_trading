@@ -10,8 +10,8 @@ const ProductCard = ({ image, title, description }:ProductCardProps) => {
       <div className="w-1/2">
         <img className="h-full w-full object-cover hover:scale-110" src={image} alt={title}/>
       </div>
-      <div className="w-2/3 p-12 flex flex-col justify-between">
-        <div>
+      <div className="w-2/3 p-8 flex flex-col justify-between">
+        <div className="text-left">
           <h2 className="text-2xl font-bold mb-2">{title}</h2>
           <p className="text-gray-700">{description}</p>
         </div>

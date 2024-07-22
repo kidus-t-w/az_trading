@@ -1,5 +1,5 @@
 import { Mail, MapPin, Phone } from "lucide-react";
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-gray-100 text-black">
@@ -29,24 +29,16 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Categories</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Red Kidney beans
-                </a>
+                <Link to="/products"> Red Kidney beans</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Mung bean
-                </a>
+                <Link to="/products"> Mung bean</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Chickpea
-                </a>
+                <Link to="/products"> Chickpea</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Pumpkin Seeds
-                </a>
+                <Link to="/products"> Pumpkin Seeds</Link>
               </li>
             </ul>
           </div>
@@ -56,35 +48,23 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Quick Navigation</h3>
             <ul className="mt-4 space-y-2 grid grid-cols-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Home
-                </a>
+                <Link to="/"> Home</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Products
-                </a>
+                <Link to="/products"> Products</Link>
               </li>
 
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  About Us
-                </a>
+                <Link to="/about_us"> About Us</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Video
-                </a>
+                <Link to="/videos"> Videos</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  Contact Us
-                </a>
+                <Link to="/contact_us"> Contact Us</Link>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-gray-800">
-                  FAQ
-                </a>
+                <Link to="/faq"> FAQ</Link>
               </li>
             </ul>
           </div>

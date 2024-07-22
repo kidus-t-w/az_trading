@@ -22,7 +22,7 @@ const Card = ({ name, description, img, price }: CardProps) => {
       </div>
       <div className="px-6  pb-2 ">
         <Link
-          to="/product_detail"
+          to="/products"
           className="text-blue-500 hover:text-blue-800 hover:underline"
         >
           Read More

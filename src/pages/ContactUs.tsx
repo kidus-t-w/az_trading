@@ -2,7 +2,7 @@ import { Facebook, Linkedin, Mail, MapPin, Phone, Printer, Twitter } from "lucid
 
 export default function ContactUs() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mt-28 mb-4">
       <div className="bg-gray-100 py-12">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-2xl font-bold mb-4">We'd Love To Help You</h2>

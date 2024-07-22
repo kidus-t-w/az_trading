@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Black Cumin Seeds",
+    "price": 2.99,
+    "img": "/imgs/spices/black cumin seed.png",
+    "description": "Black cumin seeds are a type of seed that is native to India. They are a good source of protein and are low in fat. Black cumin seeds are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+  },
+  {
+    "name": "Cardamom",
+    "price": 3.99,
+    "img": "/imgs/spices/cardamom.png",
+    "description": "Cardamom is a type of spice that is native to India. It is a good source of protein and is low in fat. Cardamom is also a good source of fiber, which helps to keep you feeling full and satisfied. It is a great addition to any meal and can be used in a variety of dishes."
+  },
+  {
+    "name": "Dry Ginger",
+    "price": 4.99,
+    "img": "/imgs/spices/dry gigner.png",
+    "description": "Dry ginger is a type of spice that is native to India. It is a good source of protein and is low in fat. Dry ginger is also a good source of fiber, which helps to keep you feeling full and satisfied. It is a great addition to any meal and can be used in a variety of dishes."
+  },
+  {
+    "name": "Tumeric Finger",
+    "price": 5.99,
+    "img": "/imgs/spices/turmeric finger.png",
+    "description": "Tumeric finger is a type of spice that is native to India. It is a good source of protein and is low in fat. Tumeric finger is also a good source of fiber, which helps to keep you feeling full and satisfied. It is a great addition to any meal and can be used in a variety of dishes."
+  }
+]

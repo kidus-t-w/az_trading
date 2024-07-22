@@ -1,0 +1,27 @@
+[
+ {
+      "name": "Niger Seeds",
+      "price": 2.99,
+      "img": "/imgs/Oil seeds/niger seeds.png",
+      "description": "Niger seeds are a type of seed that is native to India. They are a good source of protein and are low in fat. Niger seeds are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+    },
+    {
+      "name": "Red Skin Peanut",
+      "price": 3.99,
+      "img": "/imgs/Oil seeds/red skin peanut.png",
+      "description": "Red skin peanut is a type of seed that is native to India. They are a good source of protein and are low in fat. Red skin peanut is also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+    },
+    {
+      "name": "Reddish Sesame Seeds",
+      "price": 4.99,
+      "img": "imgs/Oil seeds/reddish sesame seeds.png",
+      "description": "Reddish sesame seeds are a type of seed that is native to India. They are a good source of protein and are low in fat. Reddish sesame seeds are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+    },
+     {
+      "name": "White Sesame Seeds",
+      "price": 5.99,
+      "img": "/imgs/Oil seeds/white sesame seeds.png",
+      "description": "White sesame seeds are a type of seed that is native to India. They are a good source of protein and are low in fat. White sesame seeds are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+    }
+  
+]

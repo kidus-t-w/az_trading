@@ -1,0 +1,21 @@
+[
+  {
+      "name": "Bitter Lupin",
+      "price": 2.99,
+      "img": "/imgs/Cerial/bitter lunpini.png",
+      "description": "Bitter lupin is a type of legume that is native to the Mediterranean region. It is a good source of protein and is low in fat. Bitter lupin is also a good source of fiber, which helps to keep you feeling full and satisfied. It is a great addition to any meal and can be used in a variety of dishes."
+    },
+    {
+      "name": "Desi Chick Peas",
+      "price": 3.99,
+      "img": "/imgs/Cerial/desi  chick peas.png",
+      "description": "Desi chick peas are a type of legume that is native to India. They are a good source of protein and are low in fat. Desi chick peas are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+    },
+    {
+      "name": "Kabuli Chick Peas",
+      "price": 4.99,
+      "img": "/imgs/Cerial/kabuli chick peas.png",
+      "description": "Kabuli chick peas are a type of legume that is native to India. They are a good source of protein and are low in fat. Kabuli chick peas are also a good source of fiber, which helps to keep you feeling full and satisfied. They are a great addition to any meal and can be used in a variety of dishes."
+    }
+  
+]

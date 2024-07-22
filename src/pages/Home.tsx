@@ -44,7 +44,7 @@ const Home: React.FC = () => {
                 Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
               </p>
               <Link to="about_us">
-                <Button className="bg-red-600 hover:bg-white hover:text-black mt-4">
+                <Button className="bg-blue-700 hover:bg-blue:500 hover:text-black mt-4">
                   Learn More
                 </Button>
               </Link>
