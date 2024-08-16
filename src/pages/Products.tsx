@@ -49,38 +49,38 @@ export default function Products() {
       <div className="bg-gray-100 py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
-            <button onClick={() => handleClick(beans)}>
+            <div className="cursor-pointer" onClick={() => handleClick(beans)}>
               <ProductCard
                 key={products[0].title}
                 image={products[0].image}
                 title={products[0].title}
                 description={products[0].description}
               />
-            </button>
-            <button onClick={() => handleClick(cereal)}>
+            </div>
+            <div className="cursor-pointer" onClick={() => handleClick(cereal)}>
               <ProductCard
                 key={products[1].title}
                 image={products[1].image}
                 title={products[1].title}
                 description={products[1].description}
               />
-            </button>
-            <button onClick={() => handleClick(oilSeeds)}>
+            </div>
+            <div className="cursor-pointer" onClick={() => handleClick(oilSeeds)}>
               <ProductCard
                 key={products[2].title}
                 image={products[2].image}
                 title={products[2].title}
                 description={products[2].description}
               />
-            </button>
-            <button onClick={() => handleClick(spice)}>
+            </div>
+            <div className="cursor-pointer" onClick={() => handleClick(spice)}>
               <ProductCard
                 key={products[3].title}
                 image={products[3].image}
                 title={products[3].title}
                 description={products[3].description}
               />
-            </button>
+            </div>
           </div>
         </div>
       </div>
