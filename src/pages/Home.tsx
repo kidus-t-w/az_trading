@@ -53,7 +53,7 @@ const Home: React.FC = () => {
         </section>
         <section className="my-4">
           <h2 className="text-center text-4xl font-bold my-16">
-            Product Recommended
+            Popular Products
           </h2>
           <div className="w-full px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 container">
             {productsData.map((product: ProductType) => (

@@ -17,7 +17,7 @@ export default function HeroSection() {
               </button>
             </Link>
             <Link to="/contact_us">
-              <button className="bg-white text-blue-800 px-6 py-2 rounded-md hover:bg-blue-800 hover:border border-white hover:text-white w-[300px] h-[50px]">
+              <button className="bg-white text-blue-800 px-6 py-2 rounded-md hover:bg-transparent hover:border border-white hover:text-white w-[300px] h-[50px]">
                 Contact Us
               </button>
             </Link>

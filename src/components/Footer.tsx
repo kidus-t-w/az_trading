@@ -11,7 +11,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               <li className="flex items-center">
                 <Phone />
-                <span className="ml-2">+251-915579335</span>
+                <span className="ml-2">+251 96 248 8640</span>
               </li>
               <li className="flex items-center">
                 <Mail />
@@ -73,7 +73,7 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-center">
             <h3 className="text-lg font-semibold">QR Code</h3>
             <img
-              src="/src/assets/img/QR.png"
+              src="/imgs/QR.png"
               alt="QR Code"
               className="h-[250px]"
             />

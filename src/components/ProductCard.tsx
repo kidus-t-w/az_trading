@@ -13,11 +13,6 @@ const ProductCard = ({ product }: any) => {
           <h2 className="font-bold text-xl mb-2">{product.name}</h2>
           <p className="text-gray-700 mb-2">{product.description}</p>
         </div>
-        {/* <Link to="/product_detail" className="mt-2 md:mt-0">
-          <button className="bg-blue-700 hover:bg-blue-500 text-white p-2 rounded">
-            Read More
-          </button>
-        </Link> */}
       </div>
     </div>
   );
