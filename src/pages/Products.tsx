@@ -1,54 +1,65 @@
-import PageTitle from "../components/PageTitle";
-import ProductCard from "../components/ui/ProductCard";
-import { useNavigate } from "react-router-dom";
-import Cereals from "../assets/img/products/Cereals.png";
-import Beans from "../assets/img/products/Beans & Pulses.png";
-import Oil from "../assets/img/products/Oil Seeds.png";
-import Spices from "../assets/img/products/Spices.png";
-import beans from "../data/beans.json";
-import oilSeeds from "../data/oilSeeds.json";
-import cereal from "../data/cereal.json";
-import spice from "../data/spice.json";
+import { motion } from 'framer-motion'
 
+import PageTitle from '../components/PageTitle'
+import ProductCard from '../components/ui/ProductCard'
+import { useNavigate } from 'react-router-dom'
+import Cereals from '../assets/img/products/Cereals.png'
+import Beans from '../assets/img/products/Beans & Pulses.png'
+import Oil from '../assets/img/products/Oil Seeds.png'
+import Spices from '../assets/img/products/Spices.png'
+import beans from '../data/beans.json'
+import oilSeeds from '../data/oilSeeds.json'
+import cereal from '../data/cereal.json'
+import spice from '../data/spice.json'
 
 const products = [
   {
     image: Beans,
-    title: "Beans & Pulses",
+    title: 'Beans & Pulses',
     description:
-      "High-quality beans and pulses, rich in protein and nutrients, perfect for soups, salads, and stews.",
+      'High-quality beans and pulses, rich in protein and nutrients, perfect for soups, salads, and stews.'
   },
   {
     image: Cereals,
-    title: "Cereals",
+    title: 'Cereals',
     description:
-      "Premium cereals packed with essential nutrients, perfect for a healthy breakfast or versatile cooking.",
+      'Premium cereals packed with essential nutrients, perfect for a healthy breakfast or versatile cooking.'
   },
   {
     image: Oil,
-    title: "Oil Seeds",
+    title: 'Oil Seeds',
     description:
-      "Nutrient-rich oil seeds, ideal for cooking and health benefits. High-quality, fresh selection for all your needs.",
+      'Nutrient-rich oil seeds, ideal for cooking and health benefits. High-quality, fresh selection for all your needs.'
   },
   {
     image: Spices,
-    title: "Spices",
+    title: 'Spices',
     description:
-      "Authentic, aromatic spices to elevate your culinary creations. Fresh, high-quality spices for every dish.",
-  },
-];
+      'Authentic, aromatic spices to elevate your culinary creations. Fresh, high-quality spices for every dish.'
+  }
+]
 export default function Products() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   const handleClick = (product: any) => {
-    navigate("/product_catagory", { state: { product } });
-  };
+    navigate('/product_catagory', { state: { product } })
+  }
 
   return (
     <>
       <PageTitle title="Products" />
       <div className="bg-gray-100 py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+          <motion.div
+            className="grid grid-cols-1 md:grid-cols-2 gap-20"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            variants={{
+              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, x: -5 }
+            }}
+          >
             <div className="cursor-pointer" onClick={() => handleClick(beans)}>
               <ProductCard
                 key={products[0].title}
@@ -81,9 +92,9 @@ export default function Products() {
                 description={products[3].description}
               />
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>
-  );
+  )
 }

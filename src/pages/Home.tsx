@@ -1,5 +1,5 @@
-// src/pages/Home.tsx
 import React from 'react'
+import { motion } from 'framer-motion'
 import HeroSection from '../components/HeroSection'
 import Banner from '../assets/img/Banner.jpg'
 import { Button } from '../components/ui/button'
@@ -24,9 +24,34 @@ const Home: React.FC = () => {
           <h2 className="text-4xl font-bold text-center my-16">
             We Offer Multi-Scenario Solutions
           </h2>
-          <div className="flex flex-col lg:flex-row justify-evenly items-center space-y-8 lg:space-y-0">
-            <img className="rounded-xl w-full lg:w-[800px]" src={Banner} alt="Banner" />
-            <div className="w-full lg:w-[600px] space-y-8">
+          <div
+            className="flex flex-col lg:flex-row justify-evenly items-center space-y-8 lg:space-y-0
+          "
+          >
+            <motion.img
+              className="rounded-xl w-full lg:w-[800px]"
+              src={Banner}
+              alt="Banner"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 2 }}
+              variants={{
+                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, x: -200 }
+              }}
+            />
+            <motion.div
+              className="w-full lg:w-[600px] space-y-8"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 2 }}
+              variants={{
+                visible: { opacity: 1, x: 0 },
+                hidden: { opacity: 0, x: 200 }
+              }}
+            >
               <p>
                 AZ Trading – Leading supplier of Beans & Pulses, Oil Seed, Cereal, & Spices Az
                 Trading P.L.C is a leading supplier of premium quality product range of beans &
@@ -41,16 +66,26 @@ const Home: React.FC = () => {
                   Learn More
                 </Button>
               </Link>
-            </div>
+            </motion.div>
           </div>
         </section>
         <section className="my-4">
           <h2 className="text-center text-4xl font-bold my-16">Popular Products</h2>
-          <div className="w-full px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 container">
+          <motion.div
+            className="w-full px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 container"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 2 }}
+            variants={{
+              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, x: 200 }
+            }}
+          >
             {productsData.map((product: ProductType) => (
               <Card key={product.name} {...product} />
             ))}
-          </div>
+          </motion.div>
         </section>
         <section className="flex flex-col lg:flex-row w-full mt-16">
           <div className="w-full lg:w-1/2 bg-red-300 flex items-center justify-center">

@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 import PageTitle from '../components/PageTitle'
 import Map from '../assets/img/Map.png'
 import wearHouse from '/imgs/wearHouse/wear house.png'
@@ -26,7 +28,17 @@ export default function AboutUs() {
         </div>
       </div>
       <h2 className="text-4xl font-bold text-center">Our History</h2>
-      <div className="mt-4">
+      <motion.div
+        className="mt-4"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 2 }}
+        variants={{
+          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, x: 200 }
+        }}
+      >
         <div className="container flex flex-col md:flex-row items-center md:items-start bg-white p-4">
           <img
             src={wearHouse2}
@@ -44,8 +56,18 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="mt-4">
+      </motion.div>
+      <motion.div
+        className="mt-4"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 2 }}
+        variants={{
+          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, x: -200 }
+        }}
+      >
         <div className="container flex flex-col md:flex-row-reverse items-center md:items-start bg-white p-4">
           <img
             src={wearHouse}
@@ -64,8 +86,18 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="mt-4">
+      </motion.div>
+      <motion.div
+        className="mt-4"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 2 }}
+        variants={{
+          visible: { opacity: 1, x: 0 },
+          hidden: { opacity: 0, x: 200 }
+        }}
+      >
         <div className="container flex flex-col md:flex-row items-center md:items-start bg-white p-4">
           <img
             src={wearHouse3}
@@ -83,12 +115,21 @@ export default function AboutUs() {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <div className="bg-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-row-3 gap-8">
-            <div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 2 }}
+              variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: -50 }
+              }}
+            >
               <h3 className="text-lg font-bold mb-2">
                 Producing high-quality beans with the most advanced technology and equipment
               </h3>
@@ -103,8 +144,17 @@ export default function AboutUs() {
                 excellence in production ensures that our beans not only meet but exceed industry
                 standards.
               </p>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 2 }}
+              variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: -50 }
+              }}
+            >
               <h3 className="text-lg font-bold mb-2">Adopted a fully automated production line</h3>
               <div className="border-b-2 border-green-500 w-24 mb-4"></div>
               <p className="text-gray-700">
@@ -117,8 +167,17 @@ export default function AboutUs() {
                 automation reflects our forward-thinking approach and our dedication to remaining at
                 the forefront of the industry.
               </p>
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 2 }}
+              variants={{
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: -50 }
+              }}
+            >
               <h3 className="text-lg font-bold mb-2">Takes health and safety seriously</h3>
               <div className="border-b-2 border-green-500 w-24 mb-4"></div>
               <p className="text-gray-700">
@@ -131,7 +190,7 @@ export default function AboutUs() {
                 of our company culture. By prioritizing health and safety, we protect our workforce
                 and ensure the integrity and safety of our products for the end consumer.
               </p>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
