@@ -33,10 +33,10 @@ export default function AboutUs() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 3 }}
         variants={{
           visible: { opacity: 1, x: 0 },
-          hidden: { opacity: 0, x: 20 }
+          hidden: { opacity: 0, x: 30 }
         }}
       >
         <div className="container flex flex-col md:flex-row items-center md:items-start bg-white p-4">
@@ -62,10 +62,10 @@ export default function AboutUs() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 3 }}
         variants={{
           visible: { opacity: 1, x: 0 },
-          hidden: { opacity: 0, x: -20 }
+          hidden: { opacity: 0, x: -30 }
         }}
       >
         <div className="container flex flex-col md:flex-row-reverse items-center md:items-start bg-white p-4">
@@ -92,10 +92,10 @@ export default function AboutUs() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 3 }}
         variants={{
           visible: { opacity: 1, x: 0 },
-          hidden: { opacity: 0, x: 20 }
+          hidden: { opacity: 0, x: 30 }
         }}
       >
         <div className="container flex flex-col md:flex-row items-center md:items-start bg-white p-4">
@@ -124,10 +124,10 @@ export default function AboutUs() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 2 }}
+              transition={{ duration: 3 }}
               variants={{
                 visible: { opacity: 1, y: 0 },
-                hidden: { opacity: 0, y: -20 }
+                hidden: { opacity: 0, y: -30 }
               }}
             >
               <h3 className="text-lg font-bold mb-2">
@@ -149,10 +149,10 @@ export default function AboutUs() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 2 }}
+              transition={{ duration: 3 }}
               variants={{
                 visible: { opacity: 1, y: 0 },
-                hidden: { opacity: 0, y: -20 }
+                hidden: { opacity: 0, y: -30 }
               }}
             >
               <h3 className="text-lg font-bold mb-2">Adopted a fully automated production line</h3>
@@ -172,10 +172,10 @@ export default function AboutUs() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 2 }}
+              transition={{ duration: 3 }}
               variants={{
                 visible: { opacity: 1, y: 0 },
-                hidden: { opacity: 0, y: -20 }
+                hidden: { opacity: 0, y: -30 }
               }}
             >
               <h3 className="text-lg font-bold mb-2">Takes health and safety seriously</h3>

@@ -9,10 +9,10 @@ const ProductList = ({ product }: any) => {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      transition={{ duration: 2 }}
+      transition={{ duration: 3 }}
       variants={{
         visible: { opacity: 1, y: 0 },
-        hidden: { opacity: 0, y: -20 }
+        hidden: { opacity: 0, y: -30 }
       }}
     >
       <ProductCard product={product} />

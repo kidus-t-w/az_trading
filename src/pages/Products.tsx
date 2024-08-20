@@ -57,7 +57,7 @@ export default function Products() {
             transition={{ duration: 1 }}
             variants={{
               visible: { opacity: 1, x: 0 },
-              hidden: { opacity: 0, x: -5 }
+              hidden: { opacity: 0, x: -10 }
             }}
           >
             <div className="cursor-pointer" onClick={() => handleClick(beans)}>
