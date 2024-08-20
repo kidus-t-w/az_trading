@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <>
       <div className="relative sm:w-full sm:h-[900px] h-[500px] z-0 mt-8">
-        <div className="h-[500px] sm:w-full sm:h-full bg-banner bg-fixed bg-cover bg-center bg-no-repeat"></div>
+        <div className="h-[500px] sm:w-full sm:h-full bg-banner bg-cover bg-center bg-no-repeat"></div>
         <div className="absolute inset-0 bg-black bg-opacity-50 h-[500px] sm:w-full sm:h-full flex flex-col gap-y-4 items-center justify-center text-center">
           <div className=" text-white py-10 flex flex-col items-center justify-center">
             <h1 className="text-5xl font-bold mb-6 text-center px-4 md:text-[50px] md:leading-[50px] ">
