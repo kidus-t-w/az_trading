@@ -1,14 +1,11 @@
-// src/components/ProductList.js
-import ProductCard from './ProductCard';
+import ProductCard from './ProductCard'
 
-
-const ProductList = ({product}:any) => {
+const ProductList = ({ product }: any) => {
   return (
     <div className="flex-1">
-        <ProductCard product={product} />
-
+      <ProductCard product={product} />
     </div>
-  );
+  )
 }
 
-export default ProductList;
+export default ProductList

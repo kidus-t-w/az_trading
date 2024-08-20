@@ -1,22 +1,21 @@
 // src/pages/Home.tsx
-import React from "react";
-import HeroSection from "../components/HeroSection";
-import Banner from "../assets/img/Banner.jpg";
-import { Button } from "../components/ui/button";
-import Card from "../components/ui/card";
-import { Link } from "react-router-dom";
-import productsData from "../data/beans.json";
-import wearHouse from "/imgs/wearHouse/wear house 3.png";
+import React from 'react'
+import HeroSection from '../components/HeroSection'
+import Banner from '../assets/img/Banner.jpg'
+import { Button } from '../components/ui/button'
+import Card from '../components/ui/card'
+import { Link } from 'react-router-dom'
+import productsData from '../data/beans.json'
+import wearHouse from '/imgs/wearHouse/wear house 3.png'
 
 type ProductType = {
-  name: string;
-  price: number;
-  img: string;
-  description: string;
+  name: string
+  price: number
+  img: string
+  description: string
 }
 
 const Home: React.FC = () => {
-
   return (
     <div>
       <HeroSection />
@@ -26,21 +25,15 @@ const Home: React.FC = () => {
             We Offer Multi-Scenario Solutions
           </h2>
           <div className="flex flex-col lg:flex-row justify-evenly items-center space-y-8 lg:space-y-0">
-            <img
-              className="rounded-xl w-full lg:w-[800px]"
-              src={Banner}
-              alt="Banner"
-            />
+            <img className="rounded-xl w-full lg:w-[800px]" src={Banner} alt="Banner" />
             <div className="w-full lg:w-[600px] space-y-8">
               <p>
-                AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
-                Cereal, & Spices Az Trading P.L.C is a leading supplier of
-                premium quality product range of beans & Pulses, Oil Seed,
-                Cereal, & Spices. The company believes in providing the most
-                fresh, natural and best quality products, without any compromise
-                to all its clients. Beans & Pulses range consist of quality
-                beans with rich protein content, like Red Kidney Bean, Black
-                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
+                AZ Trading – Leading supplier of Beans & Pulses, Oil Seed, Cereal, & Spices Az
+                Trading P.L.C is a leading supplier of premium quality product range of beans &
+                Pulses, Oil Seed, Cereal, & Spices. The company believes in providing the most
+                fresh, natural and best quality products, without any compromise to all its clients.
+                Beans & Pulses range consist of quality beans with rich protein content, like Red
+                Kidney Bean, Black Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
                 Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
               </p>
               <Link to="about_us">
@@ -52,9 +45,7 @@ const Home: React.FC = () => {
           </div>
         </section>
         <section className="my-4">
-          <h2 className="text-center text-4xl font-bold my-16">
-            Popular Products
-          </h2>
+          <h2 className="text-center text-4xl font-bold my-16">Popular Products</h2>
           <div className="w-full px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 container">
             {productsData.map((product: ProductType) => (
               <Card key={product.name} {...product} />
@@ -68,15 +59,13 @@ const Home: React.FC = () => {
           <div className="w-full lg:w-1/2 flex flex-col justify-evenly items-center bg-black text-white p-8">
             <div className="w-full lg:w-[700px] space-y-8">
               <p>
-                AZ Trading – Leading supplier of Beans & Pulses, Oil Seed,
-                Cereal, & Spices Az Trading P.L.C is a leading supplier of
-                premium quality product range of beans & Pulses, Oil Seed,
-                Cereal, & Spices. The company believes in providing the most
-                fresh, natural and best quality products, without any compromise
-                to all its clients. Beans & Pulses range consist of quality
-                beans with rich protein content, like Red Kidney Bean, Black
-                Kidney Bean, Red Speckled Kidney Bean, Light Speckled Kidney
-                Bean, Pinto Bean, Green Mung Beans & Fava /Broad Beans.
+                At AZ Trading, our vision is to be the leading provider of innovative and
+                sustainable agricultural solutions, empowering businesses to achieve greater
+                productivity and success. We strive to create a future where every agricultural
+                enterprise, regardless of size, has access to the tools and technologies necessary
+                to thrive in an ever-changing global market. Our commitment to quality, integrity,
+                and customer satisfaction drives us to continuously innovate and deliver solutions
+                that make a lasting impact on the industry and the communities we serve.
               </p>
               <Link to="/about_us">
                 <Button className="bg-blue-700  hover:bg-blue-500 text-white mt-10">
@@ -105,7 +94,7 @@ const Home: React.FC = () => {
         </div>
       </main>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

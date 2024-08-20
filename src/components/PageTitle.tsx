@@ -1,8 +1,8 @@
-import { House } from "lucide-react";
-import { Link } from "react-router-dom";
+import { House } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 interface PageTitleProps {
-  title: string;
+  title: string
 }
 
 export default function PageTitle({ title }: PageTitleProps) {
@@ -16,10 +16,7 @@ export default function PageTitle({ title }: PageTitleProps) {
       </div>
       <div className="bg-gray-100 py-4 border-b-2 border-green-600">
         <div className="container mx-auto px-4 flex items-center">
-          <Link
-            to="/"
-            className="text-green-500 hover:text-green-700 flex items-center"
-          >
+          <Link to="/" className="text-green-500 hover:text-green-700 flex items-center">
             <House />
             Home
           </Link>
@@ -28,5 +25,5 @@ export default function PageTitle({ title }: PageTitleProps) {
         </div>
       </div>
     </>
-  );
+  )
 }

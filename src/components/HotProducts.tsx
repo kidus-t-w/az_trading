@@ -1,12 +1,10 @@
-// src/components/HotProducts.js
 const hotProducts = [
-  "Black Kidney Beans",
-  "Cream Beans",
-  "Green Mung Beans",
-  "Red Kidney Beans",
-  "Fave Beans",
-  // add more products here...
-];
+  'Black Kidney Beans',
+  'Cream Beans',
+  'Green Mung Beans',
+  'Red Kidney Beans',
+  'Fave Beans'
+]
 
 const HotProducts = () => {
   return (
@@ -20,7 +18,7 @@ const HotProducts = () => {
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
-export default HotProducts;
+export default HotProducts
