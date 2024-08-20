@@ -38,7 +38,7 @@ const Home: React.FC = () => {
               transition={{ duration: 2 }}
               variants={{
                 visible: { opacity: 1, x: 0 },
-                hidden: { opacity: 0, x: -200 }
+                hidden: { opacity: 0, x: -20 }
               }}
             />
             <motion.div
@@ -49,7 +49,7 @@ const Home: React.FC = () => {
               transition={{ duration: 2 }}
               variants={{
                 visible: { opacity: 1, x: 0 },
-                hidden: { opacity: 0, x: 200 }
+                hidden: { opacity: 0, x: 20 }
               }}
             >
               <p>
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
             transition={{ duration: 2 }}
             variants={{
               visible: { opacity: 1, x: 0 },
-              hidden: { opacity: 0, x: 200 }
+              hidden: { opacity: 0, x: 20 }
             }}
           >
             {productsData.map((product: ProductType) => (
