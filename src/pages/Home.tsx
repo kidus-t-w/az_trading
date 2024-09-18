@@ -37,8 +37,8 @@ const Home: React.FC = () => {
               viewport={{ once: true }}
               transition={{ duration: 3 }}
               variants={{
-                visible: { opacity: 1, x: 0 },
-                hidden: { opacity: 0, x: -30 }
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: -30 }
               }}
             />
             <motion.div
@@ -48,8 +48,8 @@ const Home: React.FC = () => {
               viewport={{ once: true }}
               transition={{ duration: 3}}
               variants={{
-                visible: { opacity: 1, x: 0 },
-                hidden: { opacity: 0, x: 30 }
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 30 }
               }}
             >
               <p>
@@ -78,8 +78,8 @@ const Home: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 3 }}
             variants={{
-              visible: { opacity: 1, x: 0 },
-              hidden: { opacity: 0, x: 30 }
+              visible: { opacity: 1, y: 0 },
+              hidden: { opacity: 0, y: 30 }
             }}
           >
             {productsData.map((product: ProductType) => (

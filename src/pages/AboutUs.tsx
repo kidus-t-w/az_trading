@@ -35,8 +35,8 @@ export default function AboutUs() {
         viewport={{ once: true }}
         transition={{ duration: 3 }}
         variants={{
-          visible: { opacity: 1, x: 0 },
-          hidden: { opacity: 0, x: 30 }
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 30 }
         }}
       >
         <div className="container flex flex-col md:flex-row items-center md:items-start bg-white p-4">
@@ -64,8 +64,8 @@ export default function AboutUs() {
         viewport={{ once: true }}
         transition={{ duration: 3 }}
         variants={{
-          visible: { opacity: 1, x: 0 },
-          hidden: { opacity: 0, x: -30 }
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: -30 }
         }}
       >
         <div className="container flex flex-col md:flex-row-reverse items-center md:items-start bg-white p-4">
@@ -94,8 +94,8 @@ export default function AboutUs() {
         viewport={{ once: true }}
         transition={{ duration: 3 }}
         variants={{
-          visible: { opacity: 1, x: 0 },
-          hidden: { opacity: 0, x: 30 }
+          visible: { opacity: 1, y: 0 },
+          hidden: { opacity: 0, y: 30 }
         }}
       >
         <div className="container flex flex-col md:flex-row items-center md:items-start bg-white p-4">
